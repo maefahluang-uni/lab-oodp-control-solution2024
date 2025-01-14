@@ -17,14 +17,20 @@ Please complete the boolean expression in the methods of **BooleanExpression.jav
 
 You can run test script TestBooleanExpression.java for testing your expression.
 
-Exercise Two - Row of Ampersand
+Exercise Two - Print Pattern
 --------------------
-The **AmpersandRow.java** contains a method printRowOfAmpersandsWithFor(). Please complete this  method using for loop so that it prints a row of ampersands (&). Also, use while-loop in printRowOfAmpersandsWithWhile() to do the same task. The number of ampersands it should print is passed via the int parameter, howMany.
+The **PatternPrinting.java** contains a method printRowOfStarsWithFor(). Please complete this  method using for loop so that it prints a row of stars (*). Also, use while-loop in printRowOfStarsWithWhile() to do the same task. The number of starts it should print is passed via the int parameter, "howMany".
+The loop must be stoped if the number of starts is more than 5.
 
-For example, when called by: printRowOfAmpersandsWithFor(5) or printRowOfAmpersandsWithWhile(5); the result should be given as below
+For example, when called by: printRowOfAmpersandsWithFor(2) or printRowOfAmpersandsWithWhile(2); the result should be given as below
 
 ```
-&&&&&
+**
+```
+
+when called by: printRowOfAmpersandsWithFor(10) or printRowOfAmpersandsWithWhile(10); the result should be given as below
+```
+*****
 ```
 
 Exercise Three - Complex Utility
