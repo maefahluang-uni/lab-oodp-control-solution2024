@@ -22,13 +22,13 @@ Exercise Two - Print Pattern
 The **PatternPrinting.java** contains a method printRowOfStarsWithFor(). Please complete this  method using for loop so that it prints a row of stars (*). Also, use while-loop in printRowOfStarsWithWhile() to do the same task. The number of starts it should print is passed via the int parameter, "howMany".
 The loop must be stoped if the number of starts is more than 5.
 
-For example, when called by: printRowOfAmpersandsWithFor(2) or printRowOfAmpersandsWithWhile(2); the result should be given as below
+For example, when called by: printRowOfStarsWithFor(2) or printRowOfStarsWithWhile(2); the result should be given as below
 
 ```
 **
 ```
 
-when called by: printRowOfAmpersandsWithFor(10) or printRowOfAmpersandsWithWhile(10); the result should be given as below
+when called by: printRowOfStarsWithFor(10) or printRowOfStarsWithWhile(10); the result should be given as below
 ```
 *****
 ```
