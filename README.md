@@ -10,11 +10,25 @@ Exercise One - Boolean Expression
 --------------------
 Please complete the boolean expression in the methods of **BooleanExpression.java**
 1.  Write a Java  boolean expression which tests whether the value of the char variable, userResponse, is equal to either 'y' or 'Y'.
+   ```
+   userResponse == 'y' || userResponse == 'Y'
+   ```
 2. Write a Java boolean expression which tests whether the value of the int variable, amount, is odd (i.e. not evenly divisible by 2).
+   ```
+   amount % 2 != 0
+   ```
 3. Write a Java boolean expression which tests whether the String variable, firstName, begins with the letter 'A'.
+    ```
+   firstName.startsWith("A")
+    ```
 4. Write a Java boolean expression which tests whether the String variable, singer, is equal to "Taylor Swift" (Hint: remember that Strings are objects, not primitive types).
+   ```
+   singer.equalsIgnoreCase("Taylor Swift")
+   ```
 5. Write a Java boolean expression which tests whether the value of the int variable yearBorn, is greater than 1978 but is not equal to 2013.
-
+   ```
+   yearBorn > 1978 && yearBorn != 2013
+   ```
 You can run test script TestBooleanExpression.java for testing your expression.
 
 Exercise Two - Print Pattern
